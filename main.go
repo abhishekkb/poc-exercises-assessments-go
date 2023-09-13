@@ -17,7 +17,7 @@ func main() {
 	//goroutines.StoppingGoRoutines()
 	//datatypes.CheckDataTypes()
 	//functions.RunClosures()
-	//ducttyping.WalkTheDog()
+	//ducktyping.WalkTheDog()
 	//assessments.DoStackOperations()
 	//assessments.PanicAndRecover()
 

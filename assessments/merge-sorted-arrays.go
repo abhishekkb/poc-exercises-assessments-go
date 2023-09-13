@@ -10,12 +10,12 @@ func MergeSortedArrays() {
 	a = append(a, 2, 3, 5, 7, 8)
 	b = append(b, 1, 2, 4, 6, 7, 9)
 
-	al := len(a)
-	bl := len(b)
+	la := len(a)
+	lb := len(b)
 
 	c := []int{}
 
-	for i, j := 0, 0; i != al-1 && j != bl-1; {
+	for i, j := 0, 0; i != la-1 && j != lb-1; {
 
 		if a[i] < b[j] {
 			fmt.Println("11111")
@@ -32,11 +32,11 @@ func MergeSortedArrays() {
 			j++
 		}
 
-		if i == al-1 && j < bl {
+		if i == la-1 && j < lb {
 			fmt.Println("33333")
 			c = append(c, b[j])
 			j++
-		} else if j == bl-1 && i < al {
+		} else if j == lb-1 && i < la {
 			fmt.Println("444444")
 			c = append(c, a[i])
 			i++

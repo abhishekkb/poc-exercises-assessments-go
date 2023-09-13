@@ -1,4 +1,4 @@
-package ducttyping
+package ducktyping
 
 import "fmt"
 
